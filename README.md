@@ -18,5 +18,8 @@
    python url_path_appender.py
    根据提示输入路径
    假设url.txt内容是
-   ``` http://example.com
-https://testsite.org```
+   http://example.com
+   https://testsite.org
+   运行脚本并输入路径 /new/path 后，final_url.txt 文件内容将变为：
+   http://example.com/new/path
+   https://testsite.org/new/path

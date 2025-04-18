@@ -16,3 +16,17 @@
 2. **运行脚本**：直接运行脚本，脚本会提示用户输入要添加的路径。
    ```bash
    python url_path_appender.py
+输入路径：根据提示输入要添加的路径，例如 /new/path。
+查看结果：脚本运行完成后，修改后的 URL 将被保存到当前目录下的 final_url.txt 文件中。
+示例
+假设 url.txt 文件内容如下：
+复制
+http://example.com
+https://testsite.org
+运行脚本并输入路径 /new/path 后，final_url.txt 文件内容将变为：
+复制
+http://example.com/new/path
+https://testsite.org/new/path
+环境要求
+Python 3.x
+无需额外依赖
